@@ -1,0 +1,425 @@
+body {
+    font-family: Lato,sans-serif;
+}
+
+.hero {
+height: 55vh;
+background: url(../img/bground.png)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.transparent {
+	background-color: transparent !important;
+}
+
+ .navbar-nav {
+  flex-direction: row;
+
+}
+
+.nav-link {
+  
+
+  text-transform: uppercase;
+    font-weight: 300;
+    color: #fff !important;
+    line-height: 50px;
+    font-size: 18px;
+    margin-left: 90px;
+
+}
+
+.nav-link:hover {
+    background: #fff;
+    color: #43cb83 !important;
+    font-weight: 700;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,.5);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.active {
+   background: #fff;
+    color: #43cb83 !important;
+    font-weight: 700;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,.5);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+.round-button {
+	 border-radius: 30px;
+	 background-color: white !important;
+	 color: #43cb83 !important;
+	 -webkit-box-shadow: 0 0 30px rgba(0,0,0,.5);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 15px 30px;
+
+}
+
+.hover-effect:hover {
+cursor: pointer;
+	padding: 15px 30px;
+    background: #fff;
+    color: #43cb83;
+    font-weight: 700;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    margin: -15px -30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,.5);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+.header_img {
+
+
+    height:10px;
+    height: auto;
+
+}
+	 .row1 {
+    color: white;
+       }
+
+   .item {
+
+     border:1px solid #e3e3e3;
+
+       }
+
+
+
+ @media only screen and (min-width : 481px) {
+  .flex-row.row {
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row.row:after,
+  .flex-row.row:before {
+   display: flex;
+  }
+  .flex-row.row > [class*='col-'] > .box {
+    display: flex;
+   flex: 1;
+  }
+}
+
+
+
+
+/* Grow thumbnails to fill columns height */
+.flex-row .thumbnail,
+.flex-row .caption {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+.thumbnail {
+  margin-left: 5px;
+  margin-right: 5px;
+  border:1px solid #e3e3e3;
+}
+
+/* Flex Grow Text Container */
+.flex-row .caption p.flex-text {
+  flex-grow: 1;
+}
+
+/* Flex Responsive Image */
+.flex-row img {
+  width: 100%;
+  height: auto;
+}
+
+.item-img {
+      width: 150px;
+    margin: 0 auto;
+    height: 140px;
+ }
+.no-border {
+  border-left: 0 !important;
+
+  border-right: 0 !important;
+}
+.item-button {
+    border: 2px solid #43cb83;
+    background: transparent;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6b6b6b;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.thumbnail:hover {
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 10px 30px rgba(0,0,0,.4);
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.people {
+  background: url(../img/background1.png);
+  background-size: cover;
+  width: 100%;
+}
+.footer {
+    width: 100%;
+    background: url(../img/footer.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+   .social-menu {
+    z-index: 50;
+   }
+
+  .social-menu a {
+    display: inline-block;
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    margin: 0 20px;
+    line-height: 56px;
+    color: #fff;
+    font-size: 26px;
+  }
+ .social-menu a:hover {
+   background: #fff !important;
+    color: #43cb83 !important;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+ }
+  .footer-link {
+        text-align: center;
+  }
+  .footer-link a {
+    color: #fff;
+    font-size: 19px;
+    margin: 30px 21px 15px;
+    display: inline-block;
+  }
+  .fixed-img {
+    position: absolute;
+    bottom:0;
+    left:0;
+  }
+.ruka {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.ruka img {
+    width: 83%;
+}
+
+.valueBtn {
+    cursor: pointer;
+}
+
+
+.hoverable {
+    background: #43cb83;
+    color: #2c2c2c;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    font-weight: 900;
+}
+
+.custom-form {
+    display: block;
+    position: relative;
+    width: 670px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.custom-input {
+    width: 100%;
+    display: block;
+    border-radius: 25px;
+    height: 50px;
+    border: 2px solid #fff !important;
+    margin: 25px 0;
+    background: url(../img/form-bg.png) no-repeat bottom;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #282828 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #282828 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #282828 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #282828 !important;
+}
+
+input, input:active, input:focus, input:hover, textarea, textarea:active, textarea:focus, textarea:hover {
+    outline: none;
+}
+
+.error-input {
+    border: 2px solid red !important;
+}
+
+.errorBlock {
+    float: left;
+    color: red;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+/*jquey steps*/
+.wizard > .content {
+    background: transparent !important;
+}
+
+.wizard, .tabcontrol {
+
+}
+
+.wizard > .steps > ul > li {
+    width: 14.66666666% !important;
+}
+
+.wizard > .steps > ul > li, .wizard > .actions > ul > li {
+    float: none !important;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    font-family: Lato,sans-serif;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #fff !important;
+    color: black !important;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 15px 30px #709f90;
+    box-shadow: 0 15px 30px #709f90;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: transparent !important;
+    color: black !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+    background: transparent !important;
+    color: black !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.wizard > .content > .body input {
+    padding-left: 38px;
+    font-size: 24px;
+    color: #282828 !important;
+    font-weight: 700;
+
+}
+
+.wizard > .actions {
+    position: absolute !important;
+    display: block;
+    text-align: center !important;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+}
+
+.wizard > .actions > ul {
+    text-align: center !important;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    display: block;
+    border-radius: 30px !important;
+    width: 200px;
+    height: 55px;
+    background: #fff !important;
+    color: #43cb83 !important;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    outline: none;
+    border: none;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.wizard > .actions > ul > li.disabled {
+    display: none !important;
+}
